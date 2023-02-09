@@ -1,0 +1,30 @@
+
+.contanier{
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    background-color: aqua;
+    border-radius: 20px;
+}
+input{
+grid-column: span 4;
+text-align: right;
+height: 50px;
+border-radius: 20px;
+font-size: 20px;
+}
+ 
+button{
+   height: 48px;
+   width: 48px;
+    padding: 5px;
+border-radius: 50%;
+}
+
+

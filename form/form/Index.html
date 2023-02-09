@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+<style>
+  .main{
+    width: 500;
+    border: 2px solid black;
+    padding: 20px;
+    margin-right: 500px;
+}
+
+ table, th, td {
+        border: 1px solid black;
+        align-items: center;
+        border-radius: 5px;
+
+         }
+      
+.radio   {
+    padding-left: 10px;
+    align-items: right;
+}  
+#command{
+    size: 100px;
+}
+.table1{
+    align-content: center;
+}
+#lname{
+    position: relative;
+    left: 150px;
+    top: -21px
+
+}
+.tamil{
+    position: relative;
+    left: 150;
+    top: -30;
+}
+#fname{
+    position: relative;
+
+}
+tr{
+    background-color: rgb(174, 174, 211);
+}
+."fa fa-star checked{
+    background-color: gold;
+}
+body{
+width: fit-content;
+height: fit-content;
+    border: 2px solid black;
+
+}
+</style>
+</head>
+<body>
+    <div class="main">
+        <form action="survey">
+            <h2 class="name">Name*</h2>
+            <input type="text" name="" id="fname"><br>
+            <label for="fname">first</label>
+            <input type="text" name="" id="lname">
+            <label for="lname" class="tamil">last</label> 
+
+            <h2 class="email">Email*</h2>
+            <input type="email" name="" id="email">
+            <div><h3>Your experrience*</h3></div> 
+            <div> <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span></div>
+                <div>overall how would you rate your experience with us</div>
+                <h3>how satisfyed are you with</h3>
+                <table class="table1">
+                    <tr>
+                      <th></th>
+                      <th>very unsatisfied</th>
+                      <th>unsatisfied</th>
+                      <th>neutral</th>
+                      <th>satisfied</th>
+                      <th>very satisfied</th>
+
+                    </tr>
+                    <tr>
+                      <td class="pr">purchase</td>
+                      <td><input type="radio" class="radio" name="fav_language" value=""></td>
+                      <td><input type="radio" class="radio" name="fav_language" value=""></td>
+                      <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+                      <td><input type="radio"class="radio" name="fav_language" value=""> </td>
+                      <td><input type="radio" class="radio" name="fav_language" value=""> </td>
+                    </tr>
+                    <tr>
+                      <td class="sr">service</td>
+                      <td><input type="radio" class="radio" name="fav_language" value=""> </td>
+                      <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+                      <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+                      <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+                      <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+                    </tr>
+                    <tr>
+                        <td class="cr">company overall</td>
+                        <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+                        <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+                        <td><input type="radio" class="radio" name="fav_language" value=""> </td>
+                        <td><input type="radio" class="radio" name="fav_language" value=""> </td>
+                        <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+                      </tr>
+                  </table>
+<h3>How likely are you to*</h3>
+<table class="table">
+    <tr>
+      <th></th>
+      <th>very unlikely</th>
+      <th>unlikely</th>
+      <th>neutral</th>
+      <th>likely</th>
+      <th>very likely</th>
+
+    </tr>
+    <tr>
+      <td class="pr">Buy from us again</td>
+      <td><input type="radio" class="radio" name="fav_language" value=""></td>
+      <td><input type="radio" class="radio" name="fav_language" value=""></td>
+      <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+      <td><input type="radio"class="radio" name="fav_language" value=""> </td>
+      <td><input type="radio" class="radio" name="fav_language" value=""> </td>
+    </tr>
+    <tr>
+      <td class="sr">Recommend our product to other</td>
+      <td><input type="radio" class="radio" name="fav_language" value=""> </td>
+      <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+      <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+      <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+      <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+    </tr>
+    <tr>
+        <td class="cr">Recommend our comapany to other</td>
+        <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+        <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+        <td><input type="radio" class="radio" name="fav_language" value=""> </td>
+        <td><input type="radio" class="radio" name="fav_language" value=""> </td>
+        <td> <input type="radio" class="radio" name="fav_language" value=""></td>
+      </tr>
+  </table>
+  <h2>Additional commend or suggestion</h2>
+<textarea name="comment" id="comment" cols="80" rows="10"></textarea><br>
+<button>submit</button>
+
+
+
+            
+        </form>
+    </div>
+</body> 
+</html>

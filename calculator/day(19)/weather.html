@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        async function getready(){
+            let data = await fetch("https://restcountries.com/v3.1/all")
+            let data1= await data.json();
+            console.log(data1)
+
+            var randomcity= Math.floor(Math.random()*data1.length)
+            console.log(randomcity)
+
+            var cityNames= data1[randomcity].name.common
+            console.log(cityNames)
+
+            let weather= await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityNames}&appid=5ded84aa412f193391ae9e228b36e0fc`)
+       let tamil= await weather.json()
+       console.log(tamil)
+
+
+       
+       
+       
+        }
+        getready();
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    width: 500px;
+    height: 400px;
+    
+}
+
+.parant{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: h h h
+    r r r
+    f f f;
+}
+.child1{
+    grid-area: h;
+}
+.child3{
+    grid-area:r ;
+}
+.child4{
+    grid-area: f;
+}

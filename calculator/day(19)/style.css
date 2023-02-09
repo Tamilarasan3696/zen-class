@@ -1,0 +1,26 @@
+.card-group{
+    display: flex;
+}
+
+.card{
+
+    padding: 20px;
+}
+#title{
+    background-color:pink;
+    height: 50px;
+    text-align: center;
+    color:red;
+    font-size: large;
+    padding: 10px;
+    
+}
+.container{
+    padding: 10px;
+    margin-left: 35%;
+}
+
+.card{
+margin: auto;
+
+}
