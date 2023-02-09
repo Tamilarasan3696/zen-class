@@ -5,7 +5,7 @@ document.body.append(title);
 
 
 var division = document.createElement('div')
-division.innerHTML=`    <input type="text" id="txt">
+division.innerHTML=`    <input type="text" placeholder="Cityname"  id="txt">
 <button id="button" onclick="get()">Search</button>` 
 division.setAttribute('class','container')
 document.body.append(division);
